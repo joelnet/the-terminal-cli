@@ -1,7 +1,7 @@
 {
   "name": "the-terminal",
   "version": "1.0.2",
-  "description": "",
+  "description": "The Terminal",
   "author": "Joel Thoms",
   "license": "MIT",
   "bin": {
