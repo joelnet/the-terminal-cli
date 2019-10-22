@@ -1,0 +1,9 @@
+{
+  "prompt": {
+    "terminal": true,
+    "prompt": "$ "
+  },
+  "api": {
+    "url": "http://0.0.0.0:18000"
+  }
+}
