@@ -4,7 +4,13 @@
   "description": "",
   "author": "Joel Thoms",
   "license": "MIT",
-  "main": "src/index.js",
+  "bin": {
+    "the-terminal": "./src/bin.js"
+  },
+  "repository": {
+    "type": "ssh",
+    "url": "https://github.com/joelnet/the-terminal-cli.git"
+  },
   "scripts": {
     "start": "NODE_ENV=development node src/index.js",
     "test": "jest",
