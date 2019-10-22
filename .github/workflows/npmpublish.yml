@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: 10.15
       - run: npm ci
-      - run: npm lint
+      - run: npm run lint
       - run: npm test
 
   publish-npm:
@@ -26,7 +26,7 @@ jobs:
           node-version: 10.15
           registry-url: https://registry.npmjs.org/
       - run: npm ci
-      - run: npm lint
+      - run: npm run lint
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
@@ -42,7 +42,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: '@your-github-username'
       - run: npm ci
-      - run: npm lint
+      - run: npm run lint
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
