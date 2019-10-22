@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "ssh",
-    "url": "https://github.com/joelnet/the-terminal-cli.git"
+    "url": "git@github.com:joelnet/the-terminal-cli.git"
   },
   "scripts": {
     "start": "NODE_ENV=development node src/index.js",
