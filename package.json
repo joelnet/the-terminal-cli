@@ -13,6 +13,7 @@
   },
   "scripts": {
     "start": "NODE_ENV=development node src/index.js",
+    "dev": "NODE_ENV=development node src/index.js http://0.0.0.0:18000",
     "test": "jest",
     "test:coverage": "npm run test -- --coverage",
     "lint": "eslint ."

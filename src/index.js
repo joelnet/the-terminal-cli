@@ -6,9 +6,11 @@ const config = require('../config/default.json')
 const { store } = require('./store')
 const { processResponse } = require('./processResponse')
 
+const url = process.argv[2] || config.api.url
+
 const login = async () => {
   const response = await axios
-    .get(`${config.api.url}/login`)
+    .get(`${url}/login`)
     .then(response => response.data)
   await processResponse(response)
 }

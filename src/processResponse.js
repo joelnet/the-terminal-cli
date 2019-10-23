@@ -11,6 +11,8 @@ const {
 const { setPrompt: storeSetPrompt, setState, store } = require('./store')
 const { sleep } = require('./lib/sleep')
 
+const url = process.argv[2] || config.api.url
+
 const processResponse = async ([head, ...tail]) => {
   if (head == null) {
     return
@@ -50,7 +52,7 @@ const processResponse = async ([head, ...tail]) => {
       }
 
       await axios
-        .post(`${config.api.url}/${head.value.action}`, data)
+        .post(`${url}/${head.value.action}`, data)
         .then(response => response.data)
         .then(processResponse)
     }

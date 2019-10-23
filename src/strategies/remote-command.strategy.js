@@ -3,7 +3,7 @@ const config = require('../../config/default.json')
 const { getState } = require('../store')
 const { processResponse } = require('../processResponse')
 
-const url = config.api.url
+const url = process.argv[2] || config.api.url
 
 const test = () => true
 
