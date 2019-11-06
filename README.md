@@ -2,6 +2,8 @@
 
 The Terminal is a hacker game played in the terminal.
 
+![hacking.gif](https://raw.githubusercontent.com/joelnet/the-terminal-cli/master/assets/hacking.gif)
+
 # Accessing The Terminal
 
 To access The Terminal, you will need to have `node.js` and an up to date version of `npm`, which includes the `npx` command.
@@ -23,7 +25,7 @@ npm i -g the-terminal
 npx the-terminal
 ```
 
-Follow the directions in *Create an Account* to start playing
+Follow the directions in _Create an Account_ to start playing
 
 # Create an Account
 
