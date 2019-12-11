@@ -1,6 +1,6 @@
 # The Terminal
 
-The Terminal is a hacker game played in the terminal.
+The Terminal is a hyper realistic hacking simulator.
 
 ![hacking.gif](https://raw.githubusercontent.com/joelnet/the-terminal-cli/master/assets/hacking.gif)
 
