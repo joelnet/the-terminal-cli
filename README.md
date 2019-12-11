@@ -40,6 +40,8 @@ The security for the `root` account has recently been compromised by a security 
 Quickly, before it re-secured, log into the `root` account using the password `admin123`.
 
 ```bash
+$ npx the-terminal
+
 Login as: root
 root's password: admin123
 ```
